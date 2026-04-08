@@ -1,0 +1,572 @@
+{
+  "business": {
+    "name": "Josiah & Sons Plumbers",
+    "phone": "+13462391950",
+    "category": "plumber",
+    "city": "Houston",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Houston's Trusted Plumbing Experts",
+      "heroSubline": "Josiah & Sons Plumbers: Delivering reliable plumbing solutions across Houston. From routine repairs to complex installations, we've got you covered.",
+      "aboutTitle": "Decades of Houston Plumbing Expertise",
+      "aboutText": [
+        "Josiah & Sons Plumbers isn't just a business; it's a family legacy built on generations of Houston plumbers. Founded by Josiah himself, we've proudly served the community for over a decade, tackling everything from burst pipes in the Heights to new construction plumbing in Katy.",
+        "Our approach is simple: honest assessments, meticulous workmanship, and lasting solutions. We don't cut corners. We pride ourselves on clear communication, transparent pricing, and doing the job right the first time, every time. We understand the unique plumbing challenges Houston homes face.",
+        "We're deeply rooted in the Houston community. We actively support local initiatives and believe in giving back to the neighborhoods we serve. When you choose Josiah & Sons, you're choosing a team that cares about your home and the community we share."
+      ],
+      "valueProps": [
+        {
+          "title": "Rapid Response",
+          "description": "Emergency plumbing situations don't wait, and neither do we. Expect swift, reliable service when you need it most."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No hidden fees or surprise charges. We provide clear, detailed estimates before any work begins."
+        },
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team comprises licensed and highly trained plumbers with years of experience in the Houston area."
+        },
+        {
+          "title": "Quality Guaranteed",
+          "description": "We stand behind our work. Our plumbing solutions are built to last, ensuring your peace of mind."
+        }
+      ],
+      "ctaHeadline": "Get Your Free Plumbing Estimate Today!",
+      "ctaSubline": "Call Josiah & Sons for expert plumbing services you can trust."
+    },
+    "services": [
+      {
+        "slug": "leak-detection-repair",
+        "name": "Leak Detection & Repair",
+        "shortDescription": "Stop leaks fast with Josiah & Sons' expert detection and repair services.",
+        "description": "Unseen leaks can cause extensive damage to your Houston home, especially with our humid climate accelerating mold growth and structural decay. Josiah & Sons Plumbers utilizes advanced leak detection technology to pinpoint hidden water leaks behind walls, under slabs, and in your yard. Our experienced plumbers then provide efficient and effective repair solutions, minimizing water waste and preventing costly future damage. We handle everything from minor dripping faucets to major slab leaks, ensuring your plumbing system is leak-free and functioning optimally.\n\nWe understand the urgency of leak repairs, especially in older Houston homes with aging plumbing systems. We prioritize leak detection calls and offer 24/7 emergency service to address urgent situations. Our goal is to protect your home from water damage and provide you with long-lasting plumbing solutions you can rely on.\n\nDon't let a small leak turn into a big problem. Call Josiah & Sons Plumbers for expert leak detection and repair services in Houston.",
+        "process": [
+          "Step 1: Advanced Leak Detection - Using specialized equipment to locate hidden leaks.",
+          "Step 2: Thorough Assessment - Evaluating the extent of the damage and identifying the source of the leak.",
+          "Step 3: Efficient Repair - Implementing effective repair solutions to stop the leak and prevent future issues.",
+          "Step 4: Quality Assurance - Ensuring the repair is complete and the plumbing system is functioning properly."
+        ],
+        "benefits": [
+          "Prevents Water Damage",
+          "Reduces Water Bills",
+          "Protects Home Structure",
+          "Peace of Mind"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I have a hidden leak?",
+            "answer": "Signs of hidden leaks include unexplained increases in your water bill, water stains on walls or ceilings, musty odors, and the sound of running water when no fixtures are in use."
+          },
+          {
+            "question": "What technology do you use for leak detection?",
+            "answer": "We use acoustic listening devices, infrared cameras, and pressure testing equipment to accurately locate leaks without causing unnecessary damage to your property."
+          },
+          {
+            "question": "How quickly can you respond to a leak detection call?",
+            "answer": "We offer 24/7 emergency service for urgent leak situations and strive to respond to all calls as quickly as possible, typically within a few hours."
+          }
+        ]
+      },
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning Services",
+        "shortDescription": "Clear clogged drains fast with Houston's premier drain cleaning experts.",
+        "description": "Clogged drains can disrupt your daily routine and lead to unpleasant odors and potential plumbing damage, especially in Houston's older neighborhoods with aging pipes. Josiah & Sons Plumbers offers comprehensive drain cleaning services to clear blockages and restore proper flow. We use a variety of techniques, including snaking, hydro jetting, and enzymatic cleaners, to effectively remove debris, grease, and other obstructions from your drains.\n\nFrom slow-draining sinks to completely blocked sewer lines, we have the expertise and equipment to handle any drain cleaning challenge. We understand the importance of proper drain maintenance and offer preventative solutions to keep your drains flowing smoothly. Our plumbers are skilled in diagnosing the cause of drain clogs and providing long-lasting solutions to prevent recurring problems.\n\nDon't let clogged drains disrupt your life. Contact Josiah & Sons Plumbers for fast and reliable drain cleaning services in Houston.",
+        "process": [
+          "Step 1: Drain Inspection - Using video cameras to identify the cause and location of the blockage.",
+          "Step 2: Drain Cleaning - Employing appropriate techniques such as snaking or hydro jetting.",
+          "Step 3: Debris Removal - Removing all debris and obstructions from the drain.",
+          "Step 4: Flow Testing - Ensuring the drain is flowing freely and the blockage has been completely cleared."
+        ],
+        "benefits": [
+          "Prevents Clogs",
+          "Eliminates Odors",
+          "Improves Drainage",
+          "Extends Pipe Life"
+        ],
+        "faq": [
+          {
+            "question": "What causes clogged drains?",
+            "answer": "Clogged drains can be caused by a variety of factors, including hair, grease, food particles, soap scum, and mineral buildup."
+          },
+          {
+            "question": "What is hydro jetting?",
+            "answer": "Hydro jetting is a drain cleaning technique that uses high-pressure water to blast away stubborn clogs and debris from the inside of pipes."
+          },
+          {
+            "question": "How often should I have my drains cleaned?",
+            "answer": "The frequency of drain cleaning depends on your individual usage and the age of your plumbing system. We recommend scheduling regular drain cleaning services to prevent clogs and maintain optimal flow."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-services",
+        "name": "Water Heater Services",
+        "shortDescription": "Expert water heater repair, replacement, and installation in Houston, TX.",
+        "description": "A reliable water heater is essential for comfortable living, especially during Houston's unpredictable weather. Josiah & Sons Plumbers provides comprehensive water heater services, including repair, replacement, and installation. Whether you have a traditional tank water heater or a tankless system, our experienced plumbers can diagnose and resolve any issue.\n\nWe understand the importance of hot water and offer 24/7 emergency service for water heater repairs. We work with all major brands and models and can help you choose the right water heater for your home and budget. Our goal is to provide you with reliable hot water and energy-efficient solutions.\n\nFrom minor repairs to complete water heater replacements, Josiah & Sons Plumbers is your trusted source for water heater services in Houston. We also service the unique challenges presented by older homes in areas like The Heights.",
+        "process": [
+          "Step 1: Water Heater Inspection - Assessing the condition of the water heater and identifying any issues.",
+          "Step 2: Repair or Replacement - Providing efficient repair services or recommending a replacement if necessary.",
+          "Step 3: Professional Installation - Installing the new water heater according to manufacturer specifications.",
+          "Step 4: System Testing - Ensuring the water heater is functioning properly and providing hot water."
+        ],
+        "benefits": [
+          "Reliable Hot Water",
+          "Energy Efficiency",
+          "Cost Savings",
+          "Extended Water Heater Life"
+        ],
+        "faq": [
+          {
+            "question": "How long does a water heater typically last?",
+            "answer": "The lifespan of a water heater depends on the type, brand, and maintenance. Traditional tank water heaters typically last 8-12 years, while tankless water heaters can last 20 years or more."
+          },
+          {
+            "question": "What are the benefits of a tankless water heater?",
+            "answer": "Tankless water heaters provide on-demand hot water, energy efficiency, and space savings compared to traditional tank water heaters."
+          },
+          {
+            "question": "How can I extend the life of my water heater?",
+            "answer": "Regular maintenance, such as flushing the tank and inspecting the anode rod, can help extend the life of your water heater."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-repair-replacement",
+        "name": "Pipe Repair & Replacement",
+        "shortDescription": "Reliable pipe repair and replacement services for Houston homes and businesses.",
+        "description": "Leaky, corroded, or damaged pipes can cause significant water damage and compromise the structural integrity of your Houston property, particularly with the heavy rainfall we experience. Josiah & Sons Plumbers offers comprehensive pipe repair and replacement services to address any plumbing issue. We use high-quality materials and advanced techniques to ensure lasting solutions.\n\nFrom minor pipe repairs to complete repiping projects, our experienced plumbers can handle any job. We understand the importance of proper pipe installation and offer solutions tailored to your specific needs and budget. We work with all types of piping, including copper, PVC, and PEX.\n\nProtect your property from water damage with expert pipe repair and replacement services from Josiah & Sons Plumbers. We understand the challenges presented by older plumbing systems in Houston's historic neighborhoods.",
+        "process": [
+          "Step 1: Pipe Inspection - Assessing the condition of the pipes and identifying any leaks or damage.",
+          "Step 2: Repair or Replacement - Providing efficient repair services or recommending a replacement if necessary.",
+          "Step 3: Professional Installation - Installing the new pipes according to industry standards.",
+          "Step 4: System Testing - Ensuring the plumbing system is functioning properly and free of leaks."
+        ],
+        "benefits": [
+          "Prevents Water Damage",
+          "Improves Water Pressure",
+          "Eliminates Leaks",
+          "Extends Plumbing System Life"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a leaking pipe?",
+            "answer": "Signs of a leaking pipe include water stains on walls or ceilings, low water pressure, and the sound of running water when no fixtures are in use."
+          },
+          {
+            "question": "What types of piping do you work with?",
+            "answer": "We work with all types of piping, including copper, PVC, and PEX."
+          },
+          {
+            "question": "How long does it take to replace pipes?",
+            "answer": "The time it takes to replace pipes depends on the extent of the project. We provide upfront estimates and timelines before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation Services",
+        "shortDescription": "Upgrade your home with expert fixture installation services in Houston.",
+        "description": "Upgrading your plumbing fixtures can enhance the look and functionality of your Houston home. Josiah & Sons Plumbers offers professional fixture installation services for faucets, sinks, toilets, showers, and more. We work with all major brands and models and ensure proper installation for optimal performance.\n\nWhether you're remodeling your kitchen or bathroom, or simply replacing an old fixture, our experienced plumbers can handle any installation project. We understand the importance of proper plumbing connections and offer solutions tailored to your specific needs and budget.\n\nEnhance your home with expert fixture installation services from Josiah & Sons Plumbers. We'll handle the plumbing, so you can enjoy your new fixtures.",
+        "process": [
+          "Step 1: Fixture Selection - Assisting with the selection of the right fixtures for your needs and style.",
+          "Step 2: Professional Installation - Installing the new fixtures according to manufacturer specifications.",
+          "Step 3: Plumbing Connections - Ensuring proper plumbing connections for optimal performance.",
+          "Step 4: System Testing - Testing the new fixtures to ensure they are functioning properly and free of leaks."
+        ],
+        "benefits": [
+          "Enhanced Home Value",
+          "Improved Functionality",
+          "Modern Look",
+          "Water Conservation"
+        ],
+        "faq": [
+          {
+            "question": "What types of fixtures do you install?",
+            "answer": "We install all types of plumbing fixtures, including faucets, sinks, toilets, showers, and more."
+          },
+          {
+            "question": "Can you help me choose the right fixtures?",
+            "answer": "Yes, we can assist you with the selection of the right fixtures for your needs and style."
+          },
+          {
+            "question": "How long does it take to install a new fixture?",
+            "answer": "The time it takes to install a new fixture depends on the complexity of the project. We provide upfront estimates and timelines before any work begins."
+          }
+        ]
+      },
+      {
+        "slug": "backflow-prevention",
+        "name": "Backflow Prevention Services",
+        "shortDescription": "Protect your water supply with certified backflow prevention services in Houston.",
+        "description": "Backflow can contaminate your drinking water and pose a serious health risk to your family and neighbors. Josiah & Sons Plumbers offers certified backflow prevention services to protect your water supply from contamination. We install, test, and repair backflow prevention devices to ensure compliance with local regulations.\n\nOur certified backflow prevention specialists have the expertise and equipment to handle any backflow prevention challenge. We understand the importance of clean water and offer solutions tailored to your specific needs and budget.\n\nProtect your water supply with certified backflow prevention services from Josiah & Sons Plumbers. We'll keep your water safe and clean.",
+        "process": [
+          "Step 1: Backflow Testing - Testing the backflow prevention device to ensure it is functioning properly.",
+          "Step 2: Repair or Replacement - Providing efficient repair services or recommending a replacement if necessary.",
+          "Step 3: Professional Installation - Installing the new backflow prevention device according to local regulations.",
+          "Step 4: Certification - Certifying the backflow prevention device to ensure compliance with local regulations."
+        ],
+        "benefits": [
+          "Protects Water Supply",
+          "Prevents Contamination",
+          "Ensures Compliance",
+          "Peace of Mind"
+        ],
+        "faq": [
+          {
+            "question": "What is backflow?",
+            "answer": "Backflow is the reverse flow of water or other substances into the potable water supply."
+          },
+          {
+            "question": "Why is backflow prevention important?",
+            "answer": "Backflow prevention is important because it protects your drinking water from contamination."
+          },
+          {
+            "question": "How often should I have my backflow prevention device tested?",
+            "answer": "Backflow prevention devices should be tested annually to ensure they are functioning properly."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Sugar Land",
+        "slug": "sugar-land-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is proud to offer comprehensive plumbing services to the residents and businesses of Sugar Land, Texas. Known for its beautifully planned communities that emerged primarily in the 1990s and 2000s, Sugar Land presents unique plumbing needs, from maintaining efficient irrigation systems during the very hot and humid summers to ensuring the reliable operation of plumbing in established homes. We understand the specific challenges faced by Sugar Land homeowners and businesses. \n\nOur team of experienced plumbers is equipped to handle everything from routine maintenance and repairs to complex installations and emergency services. Whether you're dealing with a leaky faucet, a burst pipe, or need a complete plumbing system overhaul, Josiah & Sons is committed to providing prompt, professional, and reliable service. We prioritize customer satisfaction and strive to exceed your expectations with every job. We aim to be your trusted plumbing partner in Sugar Land.",
+        "localContext": "Sugar Land is a master-planned community with many homes built in the 1990s and 2000s, experiencing very hot, humid summers. This climate and housing style present unique plumbing challenges that Josiah & Sons is well-equipped to address.",
+        "nearbyAreas": [
+          "Missouri City",
+          "Stafford",
+          "Richmond"
+        ]
+      },
+      {
+        "city": "Katy",
+        "slug": "katy-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers extends its expert plumbing services to the rapidly growing community of Katy, Texas. With its more recent master-planned communities developed from the 2000s through the 2020s, Katy's homes often feature modern plumbing systems that require specialized knowledge and care. We are familiar with the specific plumbing needs and regulations in Katy. \n\nOur skilled plumbers are adept at handling a wide range of plumbing issues, including water heater repairs and replacements, drain cleaning, leak detection, and new construction plumbing installations. We understand the importance of efficient and reliable plumbing in newer homes, and we are dedicated to providing top-quality workmanship and exceptional customer service. Josiah & Sons is ready to be your dependable plumbing resource in Katy.",
+        "localContext": "Katy is characterized by newer planned communities built from the 2000s to the 2020s and experiences very hot, humid summers, requiring modern and efficient plumbing solutions.",
+        "nearbyAreas": [
+          "Brookshire",
+          "Fulshear",
+          "Cinco Ranch"
+        ]
+      },
+      {
+        "city": "The Woodlands",
+        "slug": "the-woodlands-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is pleased to serve The Woodlands, Texas, a renowned master-planned community with homes built from the 1980s to the present. This diverse range of housing styles and ages presents a variety of plumbing needs, from older systems requiring updates to newer homes needing maintenance and efficient solutions. We understand the unique challenges of plumbing in The Woodlands. \n\nWe offer a full spectrum of plumbing services to The Woodlands residents, including leak repairs, fixture installations, water heater services, and drain cleaning. We are committed to providing prompt, reliable, and professional service, ensuring that your plumbing system operates smoothly and efficiently. Josiah & Sons is your trusted plumbing partner in The Woodlands.",
+        "localContext": "The Woodlands features master-planned community homes built from the 1980s to the present and experiences very hot, humid summers, leading to diverse plumbing needs based on age and style of construction.",
+        "nearbyAreas": [
+          "Spring",
+          "Conroe",
+          "Tomball"
+        ]
+      },
+      {
+        "city": "Pearland",
+        "slug": "pearland-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is dedicated to providing exceptional plumbing services to the residents of Pearland, Texas. Known for its suburban developments that flourished in the 1990s and 2000s, Pearland's homes often require plumbing maintenance and upgrades to ensure optimal performance. We understand the common plumbing issues in Pearland neighborhoods. \n\nOur team of experienced plumbers is equipped to handle all your plumbing needs, from routine repairs to complex installations. We offer services such as drain cleaning, leak detection, water heater repair, and sewer line maintenance. We are committed to providing prompt, reliable, and professional service, ensuring your complete satisfaction. Josiah & Sons is your trusted plumbing solution in Pearland.",
+        "localContext": "Pearland is characterized by 1990s-2000s suburban developments and experiences very hot, humid summers, requiring regular plumbing maintenance and potential upgrades.",
+        "nearbyAreas": [
+          "Friendswood",
+          "Alvin",
+          "Manvel"
+        ]
+      },
+      {
+        "city": "League City",
+        "slug": "league-city-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is proud to offer its plumbing expertise to the growing community of League City, Texas. With its more recent developments from the 2000s onwards, League City's homes often feature modern plumbing systems that require specialized care and maintenance. We understand the specific plumbing needs of League City residents. \n\nOur skilled plumbers are adept at handling a wide range of plumbing services, including water heater installations, drain cleaning, leak repairs, and new construction plumbing. We are committed to providing top-quality workmanship and exceptional customer service, ensuring that your plumbing system operates efficiently and reliably. Josiah & Sons is your dependable plumbing partner in League City.",
+        "localContext": "League City features newer developments from the 2000s onwards and experiences very hot, humid summers, requiring modern and efficient plumbing solutions.",
+        "nearbyAreas": [
+          "Dickinson",
+          "Webster",
+          "Friendswood"
+        ]
+      },
+      {
+        "city": "Missouri City",
+        "slug": "missouri-city-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is dedicated to providing reliable plumbing services to the residents and businesses of Missouri City, Texas. As a well-established community with a mix of older and newer homes, Missouri City presents diverse plumbing needs. We are familiar with the specific plumbing challenges faced by homeowners and businesses in Missouri City. \n\nOur team of experienced plumbers is equipped to handle everything from routine maintenance and repairs to complex installations and emergency services. Whether you're dealing with a leaky faucet, a burst pipe, or need a complete plumbing system overhaul, Josiah & Sons is committed to providing prompt, professional, and reliable service. We prioritize customer satisfaction and strive to exceed your expectations with every job.",
+        "localContext": "Missouri City is a diverse community with a mix of older and newer homes, presenting a variety of plumbing needs that Josiah & Sons is well-equipped to address.",
+        "nearbyAreas": [
+          "Sugar Land",
+          "Stafford",
+          "Fresno"
+        ]
+      },
+      {
+        "city": "Spring",
+        "slug": "spring-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is proud to offer our comprehensive plumbing services to the residents and businesses of Spring, Texas. Spring, known for its rapid growth and family-friendly atmosphere, features a mix of established neighborhoods and newer developments. This variety presents a range of plumbing needs, and we're prepared to address them all. \n\nFrom routine maintenance to emergency repairs and new installations, our experienced team is equipped to handle any plumbing challenge. We understand the unique needs of Spring homeowners and businesses and are committed to providing prompt, reliable, and professional service. We aim to be your trusted plumbing partner in Spring.",
+        "localContext": "Spring is a rapidly growing area with a mix of established neighborhoods and newer developments, requiring a plumbing service that can handle a wide range of needs.",
+        "nearbyAreas": [
+          "The Woodlands",
+          "Tomball",
+          "Conroe"
+        ]
+      },
+      {
+        "city": "Friendswood",
+        "slug": "friendswood-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is pleased to provide expert plumbing services to the residents and businesses of Friendswood, Texas. As a well-established community with a mix of older and newer homes, Friendswood presents diverse plumbing needs, from aging infrastructure to modern plumbing systems. We understand the specific challenges faced by homeowners and businesses in Friendswood. \n\nOur team of experienced plumbers is equipped to handle all your plumbing needs, from routine maintenance and repairs to complex installations and emergency services. We offer services such as leak detection, drain cleaning, water heater repair, and sewer line maintenance. Josiah & Sons is committed to providing prompt, reliable, and professional service, ensuring your complete satisfaction.",
+        "localContext": "Friendswood is a well-established community with a mix of older and newer homes, presenting diverse plumbing needs that Josiah & Sons is well-equipped to address.",
+        "nearbyAreas": [
+          "Pearland",
+          "League City",
+          "Alvin"
+        ]
+      },
+      {
+        "city": "Tomball",
+        "slug": "tomball-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers extends its professional plumbing services to the growing community of Tomball, Texas. With its blend of historic charm and modern development, Tomball presents a variety of plumbing needs, from older homes requiring updates to newer construction needing efficient solutions. We understand the unique challenges of plumbing in Tomball. \n\nOur skilled plumbers are adept at handling a wide range of plumbing issues, including leak repairs, fixture installations, water heater services, and drain cleaning. We are committed to providing prompt, reliable, and professional service, ensuring that your plumbing system operates smoothly and efficiently. Josiah & Sons is your trusted plumbing partner in Tomball.",
+        "localContext": "Tomball blends historic charm with modern development, leading to diverse plumbing needs depending on the age and style of the property.",
+        "nearbyAreas": [
+          "The Woodlands",
+          "Spring",
+          "Magnolia"
+        ]
+      },
+      {
+        "city": "Stafford",
+        "slug": "stafford-tx",
+        "state": "TX",
+        "content": "Josiah & Sons Plumbers is dedicated to providing top-quality plumbing services to the residents and businesses of Stafford, Texas. As a diverse community with a mix of residential and commercial properties, Stafford presents a wide range of plumbing needs. We are familiar with the specific plumbing challenges faced by property owners in Stafford. \n\nOur team of experienced plumbers is equipped to handle everything from routine maintenance and repairs to complex installations and emergency services. Whether you're dealing with a leaky faucet, a burst pipe, or need a complete plumbing system overhaul, Josiah & Sons is committed to providing prompt, professional, and reliable service. We prioritize customer satisfaction and strive to exceed your expectations with every job.",
+        "localContext": "Stafford is a diverse community with a mix of residential and commercial properties, requiring a plumbing service capable of handling a wide variety of needs.",
+        "nearbyAreas": [
+          "Sugar Land",
+          "Missouri City",
+          "Houston"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Water Heater Replacement",
+        "text": "Our water heater went out on a Saturday night! Josiah & Sons Plumbers were at our house within the hour. They quickly assessed the situation and had a new water heater installed by Sunday afternoon. Amazing service and very professional!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "Had a stubborn kitchen sink clog that I couldn't clear myself. Josiah & Sons came out and cleared it quickly. The plumber was friendly and explained what caused the clog. Would definitely use them again.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Jessica R.",
+        "rating": 5,
+        "service": "Leak Detection & Repair",
+        "text": "We had a hidden leak in our slab that was causing our water bill to skyrocket. Josiah & Sons used their advanced equipment to find the leak and repaired it quickly and efficiently. Highly recommend!",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Robert L.",
+        "rating": 5,
+        "service": "Pipe Repair",
+        "text": "A pipe burst in our bathroom and flooded the entire room. Josiah & Sons Plumbers responded immediately and repaired the pipe. They were very professional and did an excellent job cleaning up the mess. Great service!",
+        "date": "2024-12-20"
+      },
+      {
+        "name": "Ashley M.",
+        "rating": 4,
+        "service": "Fixture Installation",
+        "text": "We recently remodeled our bathroom and had Josiah & Sons install a new toilet and sink. They did a great job and the fixtures look amazing. The plumber was very knowledgeable and answered all of our questions.",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Kevin B.",
+        "rating": 5,
+        "service": "Backflow Prevention",
+        "text": "Josiah & Sons handled our annual backflow testing and certification. They were prompt, efficient, and explained the process clearly. We appreciate their professionalism and commitment to water safety.",
+        "date": "2024-10-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Josiah & Sons Plumbers | Houston TX",
+        "description": "Trusted Houston plumbers for leak repair, drain cleaning, water heaters & more. Call +13462391950 for fast, reliable service!"
+      },
+      "about": {
+        "title": "About Josiah & Sons Plumbers | Houston TX",
+        "description": "Learn about Josiah & Sons Plumbers, Houston's trusted plumbing experts. Family-owned, reliable service, upfront pricing."
+      },
+      "services": {
+        "title": "Plumbing Services | Houston TX | Josiah & Sons",
+        "description": "Expert plumbing services in Houston, TX. Leak detection, drain cleaning, water heater repair, pipe repair & more. Call today!"
+      },
+      "contact": {
+        "title": "Contact Josiah & Sons Plumbers | Houston TX",
+        "description": "Contact Josiah & Sons Plumbers for expert plumbing service in Houston. Call +13462391950 for a free estimate!"
+      },
+      "reviews": {
+        "title": "Josiah & Sons Plumbers Reviews | Houston TX",
+        "description": "Read reviews for Josiah & Sons Plumbers in Houston, TX. See what our satisfied customers are saying about our plumbing services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Josiah & Sons Plumbers",
+        "description": "Josiah & Sons plumbers service Houston, Sugar Land, Katy, The Woodlands, Pearland, League City in Texas"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "leak-detection-repair": "/images/service-leak-detection-repair.webp",
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "water-heater-services": "/images/service-water-heater-services.webp",
+      "pipe-repair-replacement": "/images/service-pipe-repair-replacement.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp",
+      "backflow-prevention": "/images/service-backflow-prevention.webp"
+    },
+    "servicesResponsive": {
+      "leak-detection-repair": {
+        "src": "/images/service-leak-detection-repair.webp",
+        "srcset": "/images/service-leak-detection-repair-400w.webp 400w, /images/service-leak-detection-repair-800w.webp 800w, /images/service-leak-detection-repair-1200w.webp 1200w, /images/service-leak-detection-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-services": {
+        "src": "/images/service-water-heater-services.webp",
+        "srcset": "/images/service-water-heater-services-400w.webp 400w, /images/service-water-heater-services-800w.webp 800w, /images/service-water-heater-services-1200w.webp 1200w, /images/service-water-heater-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-repair-replacement": {
+        "src": "/images/service-pipe-repair-replacement.webp",
+        "srcset": "/images/service-pipe-repair-replacement-400w.webp 400w, /images/service-pipe-repair-replacement-800w.webp 800w, /images/service-pipe-repair-replacement-1200w.webp 1200w, /images/service-pipe-repair-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "backflow-prevention": {
+        "src": "/images/service-backflow-prevention.webp",
+        "srcset": "/images/service-backflow-prevention-400w.webp 400w, /images/service-backflow-prevention-800w.webp 800w, /images/service-backflow-prevention-1200w.webp 1200w, /images/service-backflow-prevention.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
